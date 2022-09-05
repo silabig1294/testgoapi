@@ -1,0 +1,13 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title"      : "Test API",
+        "description": "Test API for Angular Web Report Project by sila.s",
+        "contact": {
+            "name"   : "TestAPI for Report Web",
+            "url"    : "http://google.co.th",
+            "version": "1.0.0"
+        }
+    },
+    "paths": {}
+}
