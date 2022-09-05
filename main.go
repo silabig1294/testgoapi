@@ -46,13 +46,7 @@ type Date1 struct {
 	Last_year string `json:"last_year"`
 }
 
-type Date3 struct {
-	Date1 string `json:"date_1"`
-	Date2 string `json:"date_2"`
-	Date3 string `json:"date_3"`
-	Date4 string `json:"date_4"`
-	Date5 string `json:"date_5"`
-}
+
 
 type MonthAccount struct {
 	Month   string `db:"month" json:"month"`
