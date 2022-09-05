@@ -175,16 +175,7 @@ func YearlyAllAccountGather2(c *fiber.Ctx) error {
 		// 	"status":    "success",
 		// })
 		return c.JSON(result)
-		// years := []YearAccount{}
-		// query := "select year, @total := @total + account as account_count from counteryearlyaccount, (Select @total := 0) as total"
-		// err := db.Select(&years, query)
-		// if err != nil {
-		// 	return err
-		// }
-		// return c.JSON(fiber.Map{
-		// 	"results": years,
-		// 	"status":  "success",
-		// })
+
 	} else if y1 == "2018" && y2 == "2022" {
 		var err error
 		request := Date1{}
